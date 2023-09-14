@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19PX;
+    transition: 2S;
+    font-family: "kadam thmor pro" sans-serif;
+}
+
+LI:hover {
+    color:#d21617;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+}
+
+#banner {
+    background-image: url("./imgcontcomt.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+}
+
+.banner-1 {
+    background-image: url(https://img.sfilm.hu/w780/8A4PS5iG7GWEAVFftyqMZKl3qcr.jpg);
+}
+
+.banner-2 {
+    background-image: url(https://th.bing.com/th/id/OIP.WsnIRFPyB36gb4NTxEsYtQHaLH?pid=ImgDet&rs=1);
+}
+
+.banner-3 {
+    background-image: url(https://th.bing.com/th/id/OIP.AjbcIwfEyqzJ0qjaoCRWjQHaKV?pid=ImgDet&rs=1);
+}
+
+.banner-4 {
+    background-image: url(https://vignette.wikia.nocookie.net/harrypotter/images/c/ce/Colin_Farrell.jpg/revision/latest?cb=20180909114649&path-prefix=pl);
+}
+
+.banner-5 {
+    background-image: url(https://th.bing.com/th/id/R.06ff74a60c6f598e5b4a903e804d5686?rik=%2fmKJDY9gvGETWA&riu=http%3a%2f%2fwww.aceshowbiz.com%2fimages%2fwennpic%2fpaul-dano-premiere-cowboys-and-aliens-01.jpg&ehk=jiQXRq4JcCcb70%2fuorDyDINUP43i2f5JUftqKgJakro%3d&risl=&pid=ImgRaw&r=0);
+}
+
+.banner-6 {
+    background-image: url(https://th.bing.com/th/id/OIP.vIyRV08qpiTCTagmBriaRAHaOG?pid=ImgDet&rs=1);
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: "kadam thmor pro" sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: "kadam thmor pro" sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .footer-navigation {
+     display: block;
+    } 
+ 
+
+    nav {
+     display: none;
+    }
+}

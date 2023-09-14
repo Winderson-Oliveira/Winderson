@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    top: -20px;
+    left: -100px;
+}
+
+.box {
+    display: flex;
+    position: relative;
+    width: 200px;
+    left: 300px;
+    bottom: 450px;
+    margin: 40px;
+}
+
+.box-one {
+    position: relative;
+    height: 250px;
+    color: black;
+    background: #fff;
+    border-radius: 5px;
+    border: #d21617 2px solid;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
+
+.box-two {
+    position: relative;
+    height: 250px;
+    color: black;
+    background-color: #fff;
+    border-radius: 5px;
+    border: #d21617 2px solid;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
+
+.box-tre {
+    position: relative;
+    height: 250px;
+    color: black;
+    background-color: #fff;
+    border-radius: 5px;
+    border: #d21617 2px solid;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
+
+.box-for {
+    position: relative;
+    top: -10px;
+    left: -610px;
+    height: 250px;
+    color: black;
+    background-color: #fff;
+    border: #d21617 2px solid;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
+
+p {
+    color: gold;
+    width: 500px;
+    height: 500px;
+    left: 350px;
+    bottom: 500px;
+    position: relative;
+    font-size: 19px;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: 1s;
+    font-family: "kadam thmor pro" sans-serif;
+}
+
+li:hover {
+    color: red;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+}
+
+#banner {
+    background-image: url("./batmancontatos.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: "kadam thmor pro" sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .footer-navigation {
+     display: block;
+    } 
+ 
+
+    nav {
+     display: none;
+    }
+}
+
+
